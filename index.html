@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://ski-nordique-stats.vercel.app/og-image.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Jost:wght@300;400;500&family=Great+Vibes&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap">
 <style>
 :root{
   --cream:#eee7db;
@@ -274,6 +274,69 @@ footer img{height:15px;width:auto}
   .net h3{grid-column:1/-1}
   .src div{grid-template-columns:minmax(0,auto) minmax(0,1fr)}
 }
+
+/* =========================================================
+   DA 2026 · SKI NORDIQUE / SPORT INFOS — jaune fluo, noir, grotesk black
+   ========================================================= */
+:root{
+  --lime:#e1ff00;
+  --cream:#ffffff;--paper:#f4f4f2;--ink:#0b0b0b;--brown:#0b0b0b;--taupe:#5e5e5e;--rule:#dedede;--ice:#e1ff00;
+  --serif:"Inter Tight","Helvetica Neue",Arial,sans-serif;
+  --sans:"Inter","Helvetica Neue",Arial,system-ui,sans-serif;
+  --script:"Inter Tight","Helvetica Neue",Arial,sans-serif;
+}
+body{font-weight:400;font-size:15px;line-height:1.6}
+::selection{background:var(--lime);color:var(--ink)}
+.display{font-weight:900;letter-spacing:-.045em;line-height:.9}
+.num{font-weight:800;letter-spacing:-.045em;line-height:.9}
+.label{font-weight:800;letter-spacing:.06em}
+.caps{font-weight:600;letter-spacing:.06em}
+.muted{color:var(--taupe)}
+.script{font-weight:800;text-transform:uppercase;letter-spacing:-.01em}
+.sign{display:inline-block;background:var(--lime);color:var(--ink)!important;font-size:clamp(.9rem,1.35vw,1.1rem);padding:5px 12px;margin-top:4px;line-height:1.2}
+.sec-head{gap:16px}
+.pill{border-width:1.5px;font-weight:700;letter-spacing:.06em}
+.pill-lime{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+.delta{font-family:var(--sans);font-style:normal;font-weight:700;font-size:.78rem;letter-spacing:.02em;background:var(--lime);color:var(--ink);padding:2px 8px}
+.net .delta{font-size:.72rem}
+
+/* nav */
+.nav{background:rgba(255,255,255,.94);border-bottom:2px solid var(--ink)}
+.nav .brand{font-family:var(--serif);font-weight:900;font-size:1.15rem;letter-spacing:-.04em}
+.nav a:hover{opacity:1;background:var(--lime)}
+.progress{height:3px;bottom:-2px;background:var(--lime)}
+
+/* hero : aplat fluo + wordmark géant */
+.hero{background:var(--lime);color:var(--ink)}
+.hero-bg,.hero::after,.hero .kit{display:none}
+.hero h1,.hero .sub,.hero-top,.hero-bot{text-shadow:none}
+.hero h1{font-size:clamp(4.2rem,16.5vw,15rem);letter-spacing:-.065em;line-height:.8}
+.hero .sub{font-weight:700;margin-top:28px}
+.hero-top{display:flex;justify-content:center}
+.hero-top{align-items:center;flex-wrap:wrap;gap:8px}
+.hero-bot{border-top:2px solid var(--ink);padding-top:16px;margin-inline:var(--gut);padding-inline:0}
+
+/* blocs sombres */
+.dark{background:var(--ink);color:#fff}
+.dark .num{color:var(--lime)}
+.stamp .sep{background:rgba(255,255,255,.2)}
+.aud{border-top-width:2px;border-bottom-width:2px}
+.track{height:8px;background:#ececec}
+.track i{background:var(--ink)}
+.aud li::before{background:var(--lime);outline:1.5px solid var(--ink);width:8px;height:8px;border-radius:0}
+.net:first-child{border-top-width:2px}
+.donut circle:nth-child(2){stroke:#9b9b9b}
+.donut circle:nth-child(3){stroke:var(--lime)}
+.donut text{font-weight:900;letter-spacing:-.04em}
+.src .sw{border-radius:0;outline:1px solid var(--ink)}
+
+/* contact */
+.contact::after{background:linear-gradient(180deg,rgba(0,0,0,.55),rgba(0,0,0,.7))}
+.contact .script{display:inline-block;background:var(--lime);color:var(--ink);font-size:clamp(1rem,1.8vw,1.4rem);padding:6px 14px;margin-top:18px;text-shadow:none}
+.contact-links a{font-weight:700;letter-spacing:.06em}
+.contact-links a:first-child{background:var(--lime);border-color:var(--lime);color:var(--ink);text-shadow:none}
+footer{border-top:2px solid var(--ink)}
+
 </style>
 </head>
 <body>
